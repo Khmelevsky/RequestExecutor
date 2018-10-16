@@ -1,0 +1,16 @@
+PODS:
+  - RequestExecutor (1.0)
+
+DEPENDENCIES:
+  - RequestExecutor (from `RequestExecutor.podspec`)
+
+EXTERNAL SOURCES:
+  RequestExecutor:
+    :path: RequestExecutor.podspec
+
+SPEC CHECKSUMS:
+  RequestExecutor: dd4691d6f3c2f67e6799b75ad426edc685d6ef4d
+
+PODFILE CHECKSUM: 4b56db1ebaf1ac82f726400c350d2012faf61350
+
+COCOAPODS: 1.5.3
