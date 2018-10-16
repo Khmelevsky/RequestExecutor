@@ -18,9 +18,7 @@ open class RequestExecutor {
         self.handlers = handlers
     }
     
-    // MARK: - Request execute
     open func execute() {
-        // Should request start?
         guard self.handlers.filter({ $0.shouldStart(self) == false }).count == 0 else {
             return
         }
